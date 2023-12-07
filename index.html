@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Teka Teki Finder (MOS/ MPLS/ PKKMB/ OSPEK)</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Riddle <span>SOLVER</span><sub> by <i>Aridwan</i></sub>
+      </h1>
+      <p>For <span>MOS</span></p>
+    </header>
+
+    <main>
+      <section id="search-section">
+        <div id="searchbox">
+          <input
+            type="text"
+            id="search"
+            placeholder="Ketikan Teka Teki Di Sini"
+          />
+        </div>
+      </section>
+      <section id="add-section">
+        <div id="addbox">
+          <input
+            type="text"
+            id="add"
+            placeholder="Tambahkan Teka Teki Di Sini"
+          />
+        <div id="addbox">
+          <input
+            type="text"
+            id="answer"
+            placeholder="Tambahkan Jawabannya Di Sini"
+          />
+          <button id="submitRiddle" onclick="add()">Submit</button>
+        </div>
+      </section>
+      <section id="result-section">
+        <!-- <div id="result">
+          <div>
+            <p>Teka Teki :</p>
+            <p id="teka-teki">buah teh macintos</p>
+          </div>
+          <div>
+            <p>Jawaban :</p>
+            <p id="answer">Fruit Tea Apel</p>
+          </div>
+        </div> -->
+      </section>
+    </main>
+    <script src="data-source.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
